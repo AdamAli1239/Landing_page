@@ -2,11 +2,30 @@ body{
     display:flex;
     flex-direction:column;
 }
+.topfourth{
+    background-color:dimgray;
+}
+
+.secondfourth{
+    
+}
 .header{
     display:flex;
     justify-content:space-between;
 }
+h3{
+    text-align:center;
+}
 
+.square{
+    border-color:blue;
+    height:300px;
+    width:300px;
+
+}
+.subtext{
+    display:flex;
+}
 .footer{
     display:flex;
     justify-content:center;
