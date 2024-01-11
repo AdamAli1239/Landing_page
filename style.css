@@ -4,8 +4,16 @@ body{
 }
 .topfourth{
     background-color:dimgray;
+  
 }
-
+a{
+    text-decoration:none;
+    color:white;
+}
+.li{
+    display:flex;
+    gap:10px;
+}
 .secondfourth{
     
 }
@@ -21,10 +29,18 @@ h3{
     border-color:blue;
     height:300px;
     width:300px;
+    border-width:10px;
 
 }
 .subtext{
     display:flex;
+}
+.thirdfourth{
+    
+    background-color:grey;
+    padding:100px;
+   
+
 }
 .footer{
     display:flex;
@@ -35,4 +51,33 @@ h3{
 
 ul{
     list-style-type:none;
+}
+.thirdcontent{
+    display:flex;
+    justify-content:center;
+   
+}
+.bottomclick{
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+    background-color:blue;
+    
+}
+.for{
+    background-color:white;
+    padding:100px;
+  
+}
+.signup{
+    display:flex;
+    
+}
+.bottombutton{
+    background-color:blue;
+    color:white;
+    border-color:white;
+}
+#product{
+    color:white;
 }
