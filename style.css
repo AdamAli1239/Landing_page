@@ -4,6 +4,13 @@ body{
 }
 ul{
     list-style-type:none;
+    display:flex;
+    gap:20px;
+   
+}
+a{
+    text-decoration:none;
+    color:white;
 }
 .top-background{
     background-color:darkslateblue;
@@ -15,12 +22,35 @@ ul{
 }
 .header{
     display:flex;
+    justify-content:space-around;
+    
 }
+
 
 h3{
     text-align:center;
+    font-weight:bold;
+    font-size:40px;
 }
+
 .random-info{
     display:flex;
     justify-content:center;
+}
+
+img{
+    height:100px;
+    width:100px;
+}
+.subtext{
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    height:200px;
+    width:200px;
+    
+}
+.wrap-text{
+    display:flex;
+    flex-wrap:wrap;
 }
