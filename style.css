@@ -1,6 +1,8 @@
 body{
     display:flex;
     flex-direction: column;
+
+    
 }
 ul{
     list-style-type:none;
@@ -48,9 +50,35 @@ img{
     flex-wrap: wrap;
     height:200px;
     width:200px;
+}
+/* still need to make the text wrap under the images*/
+
+.quote{
+    background-color:grey;
+    height:200px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
     
 }
-.wrap-text{
+.last-sec{
+    background-color:aliceblue;
+    margin-bottom:auto;
+    height:200px;
+    justify-content:center;
+    margin-bottom:auto;
+  
+}
+.dark-blue{
+    background-color: blue;
+    width:200px;
+
+}
+.foot{
     display:flex;
-    flex-wrap:wrap;
+    background-color:darkblue;
+    color:white;
+    align-items:center;
+    justify-content:center;
+    height:100px;
 }
