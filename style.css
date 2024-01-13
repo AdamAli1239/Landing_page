@@ -28,7 +28,17 @@ a{
     
 }
 
-
+.placeholder{
+    height:200px;
+    width:200px;
+    background-color: aqua;
+    align-self: flex-end;
+   
+}
+.list-align{
+    display:flex;
+    flex-direction:column;
+}
 h3{
     text-align:center;
     font-weight:bold;
@@ -53,12 +63,15 @@ img{
 }
 /* still need to make the text wrap under the images*/
 
-.quote{
+.third-sec{
+    display:flex;
     background-color:grey;
     height:200px;
-    display:flex;
-    flex-direction:column;
+    justify-content:center;
     align-items:center;
+    flex-wrap:wrap;
+    
+
     
 }
 .last-sec{
@@ -81,4 +94,12 @@ img{
     align-items:center;
     justify-content:center;
     height:100px;
+}
+
+.quote{
+ 
+    height:200px;
+    width:350px;
+    
+ 
 }
